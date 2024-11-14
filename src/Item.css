@@ -1,0 +1,41 @@
+/* Item.css */
+.item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 150px; /* Set a fixed width */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.item-price {
+    font-size: 1rem;
+    color: #007BFF;
+}
+
+.item-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-button:hover {
+    background-color: #0056b3;
+}
